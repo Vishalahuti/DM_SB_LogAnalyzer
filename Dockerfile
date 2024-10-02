@@ -1,4 +1,4 @@
 FROM openjdk:17-jdk-slim
-EXPOSE 8081
-ADD target/DM_SB_Create.jar DM_SB_Create.jar
-ENTRYPOINT ["java","-jar","/DM_SB_Create.jar"]
+EXPOSE 8082
+ADD target/DM_SB_LogAnalyzer.jar DM_SB_LogAnalyzer.jar
+ENTRYPOINT ["java","-jar","/DM_SB_LogAnalyzer.jar"]
